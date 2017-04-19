@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "max-len": 0,
+    "arrow-body-style": 1,
+    "react/prefer-stateless-function": 0,
+    "no-console": 1,
+    "react/prop-types": 1,
+    "react/no-array-index-key": 0,
+    "class-methods-use-this": 1,
+    "jsx-a11y/no-static-element-interactions": 1
+  }
+}

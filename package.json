@@ -1,0 +1,36 @@
+{
+  "name": "react-tokenizer",
+  "version": "1.0.0",
+  "description": "tokenizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:watch": "webpack --config webpack.config.js --watch",
+    "dev:start": "nodemon dist/index.bundle.js --watch dist/index.bundle.js"
+  },
+  "author": "Daniel Crump",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "webpack": "^2.4.1",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
